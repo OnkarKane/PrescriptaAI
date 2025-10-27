@@ -1,0 +1,61 @@
+# =====================================================================
+# PrescriptaAI .gitignore
+# Recommended by Google for Android projects, with custom additions.
+# =====================================================================
+
+# ---------------------------------------------------------------------
+# 1. Android Studio / IDE Specific Files
+# ---------------------------------------------------------------------
+.idea/                          # Android Studio configuration files (entire folder)
+.vscode/                        # VS Code configuration (if used)
+*.iml                           # Project module files
+.DS_Store                       # macOS specific files
+.history/                       # Local history files (Android Studio)
+captures/                       # Performance profiler captures
+*.log                           # Log files
+
+# ---------------------------------------------------------------------
+# 2. Build Output & Generated Files
+# ---------------------------------------------------------------------
+/build/                         # All build output directories
+**/build/                       # Recursive build directories (e.g., app/build/)
+**/generated/                   # All generated source code (e.g., BuildConfig, ViewBinding)
+.gradle/                        # Gradle wrapper and cache directories
+.externalNativeBuild/           # C/C++ native build artifacts
+.cxx/                           # C/C++ build related files
+*.apk                           # Compiled Android Package Kit
+*.aab                           # Android App Bundle
+*.ap_                           # Android asset packaging tool intermediate files
+*.aar                           # Android Archive library
+*.dex                           # Dalvik Executable files
+*.ova                           # Open Virtualization Archive (if any)
+
+# ---------------------------------------------------------------------
+# 3. Sensitive & Local Configuration Files
+# ---------------------------------------------------------------------
+local.properties                # CRITICAL: Local machine properties (contains API keys, SDK paths)
+*.jks                           # Java Keystore files (for signing apps)
+*.keystore                      # Generic keystore files
+google-services.json            # Firebase configuration file (often kept private for public repos)
+
+# ---------------------------------------------------------------------
+# 4. Project-Specific Exclusions
+# ---------------------------------------------------------------------
+# Exclude your specific Word document, if it's named "PrescriptaAI_Documentation.docx"
+# Adjust the filename if yours is different
+PrescriptaAI_Documentation.docx
+
+# If your documentation is in a folder named "documentation" AND you DO NOT want it uploaded:
+# /documentation/
+
+# If you have specific Python/ML files that are large (e.g., model weights) and shouldn't be in Git, add them here
+# *.pkl
+# *.csv
+# *.db
+
+# ---------------------------------------------------------------------
+# 5. Runtime / Cache Files (usually covered by .gradle/ and build/)
+# ---------------------------------------------------------------------
+# Keep these generally as the build/ and .gradle/ covers them well.
+# Project exclude paths
+/.gradle/

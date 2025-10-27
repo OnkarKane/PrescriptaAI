@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Mode Palette -->
+    <color name="md_theme_primary">#35c5cf</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color> <!-- White text on vibrant primary -->
+    <color name="md_theme_primaryContainer">#81c9f3</color>
+    <color name="md_theme_onPrimaryContainer">#000000</color> <!-- Dark text on light primary container -->
+
+    <color name="md_theme_secondary">#81c9f3</color>
+    <color name="md_theme_onSecondary">#FFFFFF</color>
+    <color name="md_theme_secondaryContainer">#d8eff5</color>
+    <color name="md_theme_onSecondaryContainer">#000000</color>
+
+    <color name="md_theme_background">#d8eff5</color>
+    <color name="md_theme_onBackground">#1A1C1D</color>
+    <color name="md_theme_surface">#d8eff5</color>
+    <color name="md_theme_onSurface">#1A1C1D</color>
+    <color name="md_theme_surfaceVariant">#81c9f3</color>
+    <color name="md_theme_onSurfaceVariant">#43474B</color>
+
+    <color name="md_theme_error">#BA1A1A</color>
+    <color name="md_theme_onError">#FFFFFF</color>
+    <color name="md_theme_errorContainer">#FFDAD6</color>
+    <color name="md_theme_onErrorContainer">#410002</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+</resources>

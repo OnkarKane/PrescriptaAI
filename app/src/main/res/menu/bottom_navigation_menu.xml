@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home_ic"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/nav_scan"
+        android:icon="@drawable/camera_ic"
+        android:title="@string/scan" />
+
+    <item
+        android:id="@+id/nav_patients"
+        android:icon="@drawable/list"
+        android:title="@string/patients" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/user"
+        android:title="@string/profile" />
+
+</menu>

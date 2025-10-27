@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    tools:context=".fragments.ProfileFragment">
+
+    <!-- Profile Image Placeholder -->
+    <ImageView
+        android:id="@+id/ivProfileImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/user" /> <!-- Using the icon we created earlier as a placeholder -->
+
+    <!-- Doctor's Name -->
+    <TextView
+        android:id="@+id/tvDoctorNameProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp"
+        tools:text="Dr. Onkar Kane" /> <!-- tools:text is for preview only -->
+
+    <!-- Hospital Name -->
+    <TextView
+        android:id="@+id/tvHospitalNameProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="32dp"
+        tools:text="HackOps Hospital" />
+
+    <!-- Spacer to push the logout button to the bottom -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Logout Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:backgroundTint="#011159"
+        android:layout_marginBottom="32dp"/>
+
+</LinearLayout>

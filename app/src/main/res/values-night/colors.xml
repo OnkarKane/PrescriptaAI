@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Mode Palette -->
+    <color name="md_theme_primary">#35c5cf</color>
+    <color name="md_theme_onPrimary">#000000</color> <!-- Still dark text on bright primary if used -->
+    <color name="md_theme_primaryContainer">#004F53</color> <!-- Darker container for primary -->
+    <color name="md_theme_onPrimaryContainer">#D8F5F5</color> <!-- Light text for primary container -->
+
+    <color name="md_theme_secondary">#81c9f3</color>
+    <color name="md_theme_onSecondary">#000000</color>
+    <color name="md_theme_secondaryContainer">#004F6F</color> <!-- Darker container for secondary -->
+    <color name="md_theme_onSecondaryContainer">#D3E4FF</color> <!-- Light text for secondary container -->
+
+    <color name="md_theme_background">#1A1C1D</color>          <!-- Dark background for dark mode -->
+    <color name="md_theme_onBackground">#E2E2E3</color>        <!-- Light text/icons on dark background -->
+    <color name="md_theme_surface">#1A1C1D</color>             <!-- Dark surface for cards, sheets -->
+    <color name="md_theme_onSurface">#E2E2E3</color>           <!-- Light text/icons on dark surface -->
+    <color name="md_theme_surfaceVariant">#8ab5b8</color>      <!-- Slightly different dark surface -->
+    <color name="md_theme_onSurfaceVariant">#C3C7CB</color>    <!-- Lighter text on surface variant -->
+
+    <color name="md_theme_error">#FFB4AB</color>
+    <color name="md_theme_onError">#690005</color>
+    <color name="md_theme_errorContainer">#93000A</color>
+    <color name="md_theme_onErrorContainer">#FFDAD6</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+</resources>

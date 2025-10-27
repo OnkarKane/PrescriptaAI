@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PrescriptaAI"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity.PatientDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ConfirmPrescriptionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.HomeActivity"
+            android:exported="false" /> <!-- This is now the LAUNCHER activity -->
+        <activity
+            android:name=".activity.SignInActivity"
+            android:exported="true"> <!-- MUST be "true" for the launcher -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"> <!-- Changed to false since it's not exported -->
+            <!-- The redundant label was here, it's now removed -->
+        </activity>
+    </application>
+
+</manifest>
