@@ -1,6 +1,6 @@
 # PrescriptaAI - Smart Prescription Digitization & Management
 
-![PrescriptaAI Logo](/logo) <!-- Placeholder Logo - Replace with your actual app logo if available -->
+![PrescriptaAI Logo](logo.png) <!-- Placeholder Logo - Replace with your actual app logo if available -->
 
 A modern Android application designed to revolutionize handwritten prescription management for doctors using advanced AI.
 
